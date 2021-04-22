@@ -1,0 +1,224 @@
+{
+  "tests": [
+    {
+      "name": "raumSchiffEmpty",
+      "setup": "",
+      "run": "gradle test --tests TestConstructorEmpty.raumSchiffEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "ladungEmpty",
+      "setup": "",
+      "run": "gradle test --tests TestConstructorEmpty.ladungEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "raumSchiff",
+      "setup": "",
+      "run": "gradle test --tests TestConstructor.raumSchiff",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "ladung",
+      "setup": "",
+      "run": "gradle test --tests TestConstructor.ladung",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "raumSchiffGetterSetter",
+      "setup": "",
+      "run": "gradle test --tests TestGetterSetter.raumSchiffGetterSetter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "ladungGetterSetter",
+      "setup": "",
+      "run": "gradle test --tests TestGetterSetter.ladungGetterSetter",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "addLadung",
+      "setup": "",
+      "run": "gradle test --tests \"TestLadung.addLadung\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "TestZustand",
+      "setup": "",
+      "run": "gradle test --tests TestZustand",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "ladungsverzeichnisAusgeben",
+      "setup": "",
+      "run": "gradle test --tests TestLadung.ladungsverzeichnisAusgeben",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
+    },
+    {
+      "name": "photonentorpedoSchiessenEmpty",
+      "setup": "",
+      "run": "gradle test --tests TestPhotonentorpedo.photonentorpedoSchiessenEmpty",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "photonentorpedoSchiessenTwo",
+      "setup": "",
+      "run": "gradle test --tests TestPhotonentorpedo.photonentorpedoSchiessenTwo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "phaserkanoneSchiessen",
+      "setup": "",
+      "run": "gradle test --tests TestPhaserkanone.phaserkanoneSchiessen",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "phaserkanoneSchiessenTwo",
+      "setup": "",
+      "run": "gradle test --tests TestPhaserkanone.phaserkanoneSchiessenTwo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "TestLogBuch5",
+      "setup": "",
+      "run": "gradle test --tests TestLogBuch",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "trefferShield1",
+      "setup": "",
+      "run": "gradle test --tests TestTreffer.trefferShield",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "trefferSystem2",
+      "setup": "",
+      "run": "gradle test --tests TestTreffer.trefferSystem",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "treffer2",
+      "setup": "",
+      "run": "gradle test --tests TestTreffer.treffer",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "TestMessage",
+      "setup": "",
+      "run": "gradle test --tests TestMessage",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "TestEPhotonentorpedo5",
+      "setup": "",
+      "run": "gradle test --tests TestEPhotonentorpedo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "ladungsverzeichnisAufraeumenCanRemove2",
+      "setup": "",
+      "run": "gradle test --tests TestELadung.ladungsverzeichnisAufraeumenCanRemove",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "ladungsverzeichnisAufraeumenNotRemoved3",
+      "setup": "",
+      "run": "gradle test --tests TestELadung.ladungsverzeichnisAufraeumenNotRemoved",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "TestEAndroid5",
+      "setup": "",
+      "run": "gradle test --tests TestEAndroid",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
